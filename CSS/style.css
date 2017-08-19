@@ -1,0 +1,87 @@
+/*
+Estilar a traves de etiqueta p {
+	color: blue;
+	background: yellow;
+}
+*/
+
+/* estilar con clases*/
+
+/*
+COLOR:
+1) Palabra clave
+2) Numero hexadecimal con el simbolo numeral
+ #000000 , los primeros 00 rojo, segundos 00 
+verde, terceros azul. FF es lo máximo
+3) RGBA
+color: rgb (100,23,0,0);
+;
+
+*/
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+}
+
+.destacado {
+	color: rgba(100,23,0,0,5); :  !important;
+	
+}
+
+h1.destacado {
+	color: blue;
+	background-color: yellow;
+
+}
+
+
+.destacado {
+	color: red;
+	font-size: 27px;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+.parrafo {
+	line-height: 2.2;
+	letter-spacing: 1.3;
+	
+}
+
+.icono {
+	font-size: 40px; 
+	
+
+}
+.facebook {
+	color: #3b5998
+}
+.instagram {
+	color: #a82400;
+
+}
+
+.linkedin {
+	color: #007bb5;
+
+}
+
+header p a{
+	background: blue;
+	color: white;
+	font-size: 40px; 
+	text-decoration: none;
+	text-transform: uppercase;
+
+} 
+
+header p a:hover {
+	background: green;
+	color: yellow;
+
+}
+
+
+
+
